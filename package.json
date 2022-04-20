@@ -1,0 +1,28 @@
+{
+  "name": "scene-ui-icons",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "build": "esno package/build/generate.ts"
+  },
+  "dependencies": {
+    "bootstrap-icons": "^1.8.1",
+    "camelcase": "^6.3.0",
+    "chalk": "^5.0.1",
+    "consola": "^2.15.3",
+    "esno": "^0.14.1",
+    "fast-glob": "^3.2.11",
+    "fs-extra": "^10.1.0",
+    "local-pkg": "^0.4.1",
+    "vue": "^3.2.25"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^9.0.13",
+    "@types/prettier": "^2.4.4",
+    "@vitejs/plugin-vue": "^2.3.1",
+    "prettier": "2.6.2",
+    "typescript": "^4.5.4",
+    "vite": "^2.9.2",
+    "vue-tsc": "^0.29.8"
+  }
+}
